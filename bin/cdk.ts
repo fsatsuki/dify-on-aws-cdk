@@ -14,7 +14,7 @@ new DifyOnAwsStack(app, 'DifyOnAwsStack', {
   // Allow access from the Internet. Narrow this down if you want further security.
   allowedCidrs: ['0.0.0.0/0'],
   difyImageTag: '1.1.3',
-  difySandboxImageTag: '1.1.3',
+  difySandboxImageTag: '0.2.11',
 });
 
 // cdk.Aspects.of(app).add(new AwsPrototypingChecks());
