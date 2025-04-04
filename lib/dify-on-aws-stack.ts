@@ -95,8 +95,8 @@ export class DifyOnAwsStack extends cdk.Stack {
     super(scope, id, props);
 
     const {
-      difyImageTag: imageTag = '1.1.3',
-      difySandboxImageTag: sandboxImageTag = '1.1.3',
+      difyImageTag: imageTag = 'latest',
+      difySandboxImageTag: sandboxImageTag = 'latest',
       allowAnySyscalls = false,
     } = props;
 
